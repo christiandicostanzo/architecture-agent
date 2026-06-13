@@ -1,0 +1,12 @@
+[project]
+name = "architecture-agent"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.3.9",
+    "langgraph>=1.2.5",
+]
+
+[project.scripts]
+architecture-agent = "main:main"
